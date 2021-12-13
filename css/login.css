@@ -1,0 +1,30 @@
+
+.login-top-image-bg{
+    background-image: url(/image/login-img2.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height:300px;
+}
+.login-form{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+.login-button:hover{
+    background: rgba(135, 135, 248, 0.932) !important;
+    color: #fff;
+}
+.heading-text h2{
+    position: relative;
+}
+.heading-text h2::before{
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 2px;
+    bottom: 0;
+    background-color: #000;
+}
+/*  */
